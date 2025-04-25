@@ -1,13 +1,42 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title> Exp5 </title>
-	</head>
-	
-	<body>
-		<center><h1>Web Developement </h1>
+<head>
+    <title>Exp5</title>
+    <style>
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
 
-		<img src="web.png" width=800 height=500>
+        .gallery img {
+            border: 3px solid #ccc;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
 
-		</center>
-	</body>
+        .gallery img:hover {
+            transform: scale(1.05);
+            border-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+  <center>
+    <div>
+        <h1>Assignment No: 5</h1>
+        <h2>Roll No: 150</h2>
+        <h3>Aim: Create a web page to include images using HTML tags.</h3>
+    </div>
+  </center>
+    <h1 style="text-align:center;">Web Development</h1>
+
+    <div class="gallery">
+        <img src="web.png" width="400" height="500" alt="Web Image 1">
+        <img src="web1.png" width="400" height="500" alt="Web Image 2">
+        <img src="web2.png" width="400" height="500" alt="Web Image 3">
+    </div>
+
+</body>
 </html>
